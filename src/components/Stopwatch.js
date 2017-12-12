@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+
+//this manages it's own local state and doesn't need to have any changes
 export default class Stopwatch extends Component {
 
 	state = {

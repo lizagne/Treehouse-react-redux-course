@@ -22,7 +22,7 @@ export default function Player(state=initialState, action) {
 	switch(action.type) {
 		case PlayerActionTypes.ADD_PLAYER:
 			return [
-				...state //this includes the previously made state into the new array
+				...state, //this includes the previously made state into the new array
 				{
 					name: action.name,
 					score: 0
