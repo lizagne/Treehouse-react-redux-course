@@ -13,7 +13,7 @@ const store = createStore(
 
 render(
 	<Provider store={ store }> 
-		<Scoreboard />,
+	<Scoreboard />
 		document.getElementById('root')
 	</Provider>	
 );
